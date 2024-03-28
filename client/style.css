@@ -15,5 +15,18 @@
     height: 50px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+#matches{
+    border: double;
+    height: 40px;
+}
+
+#btn{
+    border: none;
+    height: 40px;
+}
+
+#btn:hover{
+    box-shadow: 5px 5px 2px red ;
 }
