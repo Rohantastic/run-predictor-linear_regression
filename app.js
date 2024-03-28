@@ -17,7 +17,7 @@ app.post('/post', async(req,res)=>{
 
     const matches_won = req.body.matches;
 
-    console.log('matches->',req.body);
+    //console.log('matches->',req.body);
 
     const response = await axios.post('http://localhost:5000/get-value',{
         matches_won
