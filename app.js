@@ -15,15 +15,17 @@ app.get('/',async (req,res)=>{
 
 app.post('/post', async(req,res)=>{
 
-    const matches = req.body.matches;
+    const matches_won = req.body.matches;
 
     console.log('matches->',req.body);
 
-    const response = await axios.post('http://localhost:3000/get-value',{
-        matches
+    const response = await axios.post('http://localhost:5000/get-value',{
+        matches_won
     });
 
-    console.log(response);
+    //console.log(response.data);
+
+    res.status(200).send({runs_predicted: response.data});
 
 })
 

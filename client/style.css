@@ -1,16 +1,23 @@
 #container {
     height: 100%;
     width: 100%;
+    
 }
 
 .inner {
     height: 50px;
-    border: 2px solid red;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .form {
+    margin-top: 200px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.result {
     margin-top: 200px;
     height: 50px;
     text-align: center;
